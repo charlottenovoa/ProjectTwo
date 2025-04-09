@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    background-color: #ce7532;
+}
+
+p {
+    color: white;
+    font-family: "coolvetica", sans-serif;
+    font-weight: 300;
+    font-size: 75px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+    font-family: "temeraire", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 75px;
+    padding: 4px;
+}
+
+.next {
+    color: #a34600;
+    font-family: "temeraire", serif;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 0%;
+    animation-name: people;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+#one {
+    animation-name: people;
+    animation-delay: 1s;
+}
+
+#two {
+    animation-name: people;
+    animation-delay: 2s;
+}
+
+#three {
+    animation-name: people;
+    animation-delay: 3s;
+}
+
+.content {
+    margin-left: 10%;
+}
+
+@keyframes people {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
