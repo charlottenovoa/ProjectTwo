@@ -13,3 +13,28 @@ body {
     min-height: 100vh;
     background-color: #ce7532;
 }
+
+a {
+    font-family: "temeraire", serif;
+    font-size: 400px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+p {
+    color: #a34600;
+    font-family: "coolvetica", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    transition-duration: 1s;
+    margin-bottom: 35%;
+    margin-left: 20%;
+}
+
+p:hover {
+    transform: rotate(-25deg) translate(30px,-170px);
+}
+
